@@ -1007,8 +1007,8 @@
           </li>
           <li>
             <div class="vertical-adjust">
-              <span class="material-icons">grid_on</span>
-              <span>Remaining numbers</span>
+              <!-- <span class="material-icons">grid_on</span> -->
+              <!-- <span>Remaining numbers</span> -->
             </div>
             <div class="remain-table">
               <div class="remain-column">
@@ -1061,36 +1061,37 @@
               </div>
             </div>
           </li>
+          <li>
+            <button
+              id="pause-btn"
+              onclick="pauseGameButtonClick()"
+              class="option-button"
+            >
+              <span class="material-icons">pause</span>
+              <span>Pause</span>
+            </button>
+            <button
+              id="check-btn"
+              onclick="checkButtonClick()"
+              class="option-button"
+            >
+              <span class="material-icons">done_all</span>
+              <span>Check</span>
+            </button>
+            <button onclick="hintButtonClick()" class="option-button">
+              <span class="material-icons">help</span>
+              <span>Hint</span>
+            </button>
+            <button onclick="restartButtonClick()" class="option-button">
+              <span class="material-icons">refresh</span>
+              <span>Restart</span>
+            </button>
+            <button onclick="SurrenderButtonClick()" class="option-button">
+              <span class="material-icons">flag</span>
+              <span>Surrender</span>
+            </button>
+          </li>
         </ul>
-
-        <button
-          id="pause-btn"
-          onclick="pauseGameButtonClick()"
-          class="option-button"
-        >
-          <span class="material-icons">pause</span>
-          <span>Pause</span>
-        </button>
-        <button
-          id="check-btn"
-          onclick="checkButtonClick()"
-          class="option-button"
-        >
-          <span class="material-icons">done_all</span>
-          <span>Check</span>
-        </button>
-        <button onclick="hintButtonClick()" class="option-button">
-          <span class="material-icons">help</span>
-          <span>Hint</span>
-        </button>
-        <button onclick="restartButtonClick()" class="option-button">
-          <span class="material-icons">refresh</span>
-          <span>Restart</span>
-        </button>
-        <button onclick="SurrenderButtonClick()" class="option-button">
-          <span class="material-icons">flag</span>
-          <span>Surrender</span>
-        </button>
       </div>
     </div>
   </body>
